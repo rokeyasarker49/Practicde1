@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.login{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.left-side{
+    width: 50%;
+    padding: 15vh;
+    background-color: #F5FAFF;;
+}
+.login-img{
+    width: 100%;
+}
+.right-side{
+    width: 50%;
+    padding: 15vh;
+}
+.title{
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%; 
+    letter-spacing: 0.2px; 
+    color: #0F172A;
+    margin-bottom: 12px;
+}
+.description{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    color: #0F172A;
+    margin-bottom: 45px;
+}
+.email{
+    color: #94A3B8;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    width: 100%;
+    outline: none;
+    line-height: 160%; 
+    margin-bottom: 21px;
+    padding: 8px 60px;
+    border-radius: 12px;
+    border: 1px solid #C6D7EF;
+    background-image: url('../img/mail.png');
+    background-repeat: no-repeat;
+    background-position: 20px 8px; 
+}
+.text, .number{
+    color: #94A3B8;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    width: 100%;
+    outline: none;
+    line-height: 160%; 
+    margin-bottom: 21px;
+    padding: 8px 60px;
+    border-radius: 12px;
+    border: 1px solid #C6D7EF;
+    background-repeat: no-repeat;
+    background-position: 20px 8px; 
+}
+
+.password{
+    color: #94A3B8;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; 
+    margin-bottom: 36px;
+    padding: 8px 60px;
+    border-radius: 12px;
+    border: 1px solid #C6D7EF;
+    background-image: url('../img/lock.png');
+    background-repeat: no-repeat;
+    background-position: 20px 8px;
+    width: 100%; 
+    outline: none;
+}
+.email:focus,
+.password:focus{
+    border-color: #007AFF;
+    color: #007AFF;
+}
+.forgot-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.checkbox-container{
+    display: flex;
+    align-items: center;
+}
+.checkbox{
+    width: 24px;
+    height: 24px;
+}
+.remember{
+    color: #0F172A;
+    font-size: 1px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%; 
+    letter-spacing: 0.px; 
+    margin-left: 12px;
+}
+.forgot-password{
+    color: #007AFF;
+    text-align: right;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 160%;
+}
+
+.button{
+    width: 100%;
+    padding: 16px 20px; 
+    line-height: 140%; 
+    border: 1px solid transparent;
+    transition: all 0.2s ease-in;
+    border-radius: 12px;
+    background: #0c70dc ;
+    color:  #FFF;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.3px; 
+    cursor: pointer;
+    border: none;
+    outline: none;
+    
+}
+.button:hover{
+    border-color: #0c70dc;
+    background-color: transparent;
+    color: #0c70dc;
+}
